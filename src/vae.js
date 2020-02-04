@@ -88,7 +88,8 @@ function isTraining(){
 }
 
 function isReadyToGenerate(){
-  return (model && model.isTrained);
+  // return (model && model.isTrained);
+  return (model);
 }
 
 function setEpochs(e){

@@ -238,15 +238,15 @@ Max.addHandler("train", ()=>{
 });
 
 // Generate a rhythm pattern
-Max.addHandler("generate", (z1, z2, threshold, noise_range = 0.0)=>{
+Max.addHandler("generate", (z1, z2, thresh_min, thresh_max = 1.0, noise_range = 0.0)=>{
     try {
-        generatePattern(z1, z2, threshold, noise_range);
+        generatePattern(z1, z2, thresh_min, thresh_max, noise_range);
     } catch(error) {
         error_status(error);
     }
 });
 
-async function generatePattern(z1, z2, threshold, noise_range){
+async function generatePattern(z1, z2, thresh_min, thresh_max, noise_range){
     if (vae.isReadyToGenerate()){    
       if (isGenerating) return;
   
@@ -261,7 +261,7 @@ async function generatePattern(z1, z2, threshold, noise_range){
           for (var j=0; j < LOOP_DURATION; j++){
               var x = 0.0;
               // if (pattern[i * LOOP_DURATION + j] > 0.2) x = 1;
-              if (onsets[i][j] > threshold){ 
+              if (onsets[i][j] >= thresh_min && onsets[i][j] <= thresh_max){ 
                 x = 1;
                 Max.outlet("matrix_output", j + 1, i + 1, x); // index for live.grid starts from 1
               }
@@ -278,7 +278,7 @@ async function generatePattern(z1, z2, threshold, noise_range){
 
             var count = 0;
             for (var i=0; i< NUM_MIDI_CLASSES; i++){
-                if (onsets[i][j] > threshold) count++; // if there is an onset
+                if (onsets[i][j] >= thresh_min && onsets[i][j] <= thresh_max) count++; // if there is an onset
                 if (count > k) {
                     pitch_sequence.push(i + MIN_MIDI_NOTE);
                     velocity_sequence.push(Math.floor(velocities[i][j]*127.));
