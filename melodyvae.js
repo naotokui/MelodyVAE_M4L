@@ -238,20 +238,20 @@ Max.addHandler("train", ()=>{
 });
 
 // Generate a rhythm pattern
-Max.addHandler("generate", (z1, z2, threshold)=>{
+Max.addHandler("generate", (z1, z2, threshold, noise_range = 0.0)=>{
     try {
-        generatePattern(z1, z2, threshold);
+        generatePattern(z1, z2, threshold, noise_range);
     } catch(error) {
         error_status(error);
     }
 });
 
-async function generatePattern(z1, z2, threshold){
+async function generatePattern(z1, z2, threshold, noise_range){
     if (vae.isReadyToGenerate()){    
       if (isGenerating) return;
   
       isGenerating = true;
-      let [onsets, velocities, durations] = vae.generatePattern(z1, z2);
+      let [onsets, velocities, durations] = vae.generatePattern(z1, z2, noise_range);
       Max.outlet("matrix_clear",1); // clear all
 
       // For Grid
