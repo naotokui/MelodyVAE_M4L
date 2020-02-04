@@ -9,7 +9,8 @@ const { Midi } = require('@tonejs/midi'); // https://github.com/Tonejs/Midi
 const MIN_MIDI_NOTE = require('./src/constants.js').MIN_MIDI_NOTE;
 const MAX_MIDI_NOTE = require('./src/constants.js').MAX_MIDI_NOTE;
 const NUM_MIDI_CLASSES = require('./src/constants.js').NUM_MIDI_CLASSES;
-const LOOP_DURATION = require('.//src/constants.js').LOOP_DURATION;
+const LOOP_DURATION = require('./src/constants.js').LOOP_DURATION;
+const MIN_ONSETS_THRESHOLD = require('./src/constants.js').MIN_ONSETS_THRESHOLD;
 
 // VAE model and Utilities
 const utils = require('./src/utils.js');
@@ -55,6 +56,16 @@ function getNoteIndexAndTimeshift(note, tempo){
     return [index, timeshift, duration];
 }
 
+function getNumOfOnsets(onsets){
+    var count = 0;
+    for (var i = 0; i < NUM_MIDI_CLASSES; i++){
+        for (var j=0; j < LOOP_DURATION; j++){
+            if (onsets[i][j] > 0) count += 1;
+        }
+    }
+    return count;
+}
+
 // Convert midi into pianoroll matrix
 function processPianoroll(midiFile, augmentation){
     const tempo = getTempo(midiFile);
@@ -70,7 +81,9 @@ function processPianoroll(midiFile, augmentation){
             //notes are an array
             const notes = track.notes
             notes.forEach(note => {
-                if (MIN_MIDI_NOTE <= note.midi && note.midi <= MAX_MIDI_NOTE){
+                // round pitch value in 0 - 24
+                let pitch = note.midi % 24; 
+                if (pitch < NUM_MIDI_CLASSES){
                     let timing = getNoteIndexAndTimeshift(note, tempo);
                     let index = timing[0];
                     let duration = timing[2];
@@ -82,7 +95,7 @@ function processPianoroll(midiFile, augmentation){
                         durations.push(utils.create2DArray(NUM_MIDI_CLASSES, LOOP_DURATION));
                     }
 
-                    let note_id = note.midi - MIN_MIDI_NOTE;
+                    let note_id = pitch;
 
                     // store onset
                     let matrix = onsets[Math.floor(index / LOOP_DURATION)];
@@ -95,6 +108,8 @@ function processPianoroll(midiFile, augmentation){
                     // store timeshift
                     matrix = durations[Math.floor(index / LOOP_DURATION)];
                     matrix[note_id][index % LOOP_DURATION] = duration;    
+                } else {
+                    console.log("out of scope ", note.midi);
                 }
             });
         }
@@ -155,9 +170,11 @@ function processPianoroll(midiFile, augmentation){
     
     // 2D array to tf.tensor2d
     for (var i=0; i < onsets.length; i++){
-        train_data_onsets.push(tf.tensor2d(onsets[i], [NUM_MIDI_CLASSES, LOOP_DURATION]));
-        train_data_velocities.push(tf.tensor2d(velocities[i], [NUM_MIDI_CLASSES, LOOP_DURATION]));
-        train_data_durations.push(tf.tensor2d(durations[i], [NUM_MIDI_CLASSES, LOOP_DURATION]));
+        if (getNumOfOnsets(onsets[i]) > MIN_ONSETS_THRESHOLD){
+            train_data_onsets.push(tf.tensor2d(onsets[i], [NUM_MIDI_CLASSES, LOOP_DURATION]));
+            train_data_velocities.push(tf.tensor2d(velocities[i], [NUM_MIDI_CLASSES, LOOP_DURATION]));
+            train_data_durations.push(tf.tensor2d(durations[i], [NUM_MIDI_CLASSES, LOOP_DURATION]));
+        }
     }
 }
 
