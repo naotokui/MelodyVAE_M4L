@@ -22,9 +22,9 @@ const LATENT_DIM = 2;
 const BATCH_SIZE = 128;
 const NUM_BATCH = 50;
 const TEST_BATCH_SIZE = 1000;
-const ON_LOSS_COEF = 0.75;  // coef for onsets loss
+const ON_LOSS_COEF = 0.1;  // coef for onsets loss
 const DUR_LOSS_COEF = 1.0;  // coef for duration loss
-const VEL_LOSS_COEF = 2.5;  // coef for velocity loss
+const VEL_LOSS_COEF = 1.0;  // coef for velocity loss
 const TS_LOSS_COEF = 5.0;  // coef for timeshift loss
 
 let dataHandlerOnset;
@@ -370,12 +370,15 @@ class ConditionalVAE {
       let velocity_loss_dr = this.mseLoss(yTrueVelDr, yVelDr);
       velocity_loss_dr = velocity_loss_dr.mul(VEL_LOSS_COEF);
       let timeshift_loss_dr = this.mseLoss(yTrueTsDr, yTsDr);
-      timeshift_loss_dr = timeshift_loss_dr.mul(TS_LOSS_COEF);
+      timeshift_loss_dr = timeshift_loss_dr.mul(DUR_LOSS_COEF);
 
       const kl_loss = this.klLoss(z_mean, z_log_var);
-      // console.log("onset_loss", tf.mean(onset_loss).dataSync());
-      // console.log("velocity_loss", tf.mean(velocity_loss).dataSync());
-      // console.log("duration_loss",  tf.mean(duration_loss).dataSync());
+      console.log("onset_loss", tf.mean(onset_loss).dataSync());
+      console.log("velocity_loss", tf.mean(velocity_loss).dataSync());
+      console.log("duration_loss",  tf.mean(duration_loss).dataSync());
+      console.log("onset_loss_dr", tf.mean(onset_loss_dr).dataSync());
+      console.log("velocity_loss_dr", tf.mean(velocity_loss_dr).dataSync());
+      console.log("timeshift_loss_dr",  tf.mean(timeshift_loss_dr).dataSync());
       // console.log("kl_loss",  tf.mean(kl_loss).dataSync());
       const total_loss = tf.mean(onset_loss.add(velocity_loss).add(duration_loss)
                   .add(onset_loss_dr).add(velocity_loss_dr).add(timeshift_loss_dr).add(kl_loss)); // averaged in the batch
@@ -455,13 +458,18 @@ class ConditionalVAE {
   }
   
   generate(zs){
-    let [outputsOn, outputsVel, outputsDur] = this.decoder.apply(zs);
+    let [outputsOn, outputsVel, outputsDur, 
+            outputsOnDr, outputsVelDr, outputsTsDr] = this.decoder.apply(zs);
 
     outputsOn = outputsOn.reshape([NUM_MIDI_CLASSES, LOOP_DURATION]);     
     outputsVel = outputsVel.reshape([NUM_MIDI_CLASSES, LOOP_DURATION]);    
     outputsDur = outputsDur.reshape([NUM_MIDI_CLASSES, LOOP_DURATION]);    
+    outputsOnDr = outputsOnDr.reshape([NUM_DRUM_CLASSES, LOOP_DURATION]);     
+    outputsVelDr = outputsVelDr.reshape([NUM_DRUM_CLASSES, LOOP_DURATION]);    
+    outputsTsDr = outputsTsDr.reshape([NUM_DRUM_CLASSES, LOOP_DURATION]);  
 
-    return [outputsOn.arraySync(), outputsVel.arraySync(), outputsDur.arraySync()];
+    return [outputsOn.arraySync(), outputsVel.arraySync(), outputsDur.arraySync(),
+        outputsOnDr.arraySync(), outputsVelDr.arraySync(), outputsTsDr.arraySync()];
   }
 
   async saveModel(path){

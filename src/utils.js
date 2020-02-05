@@ -48,6 +48,12 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
 
+function scale(value, minIn, maxIn, minOut, maxOut){
+    value = Math.min(Math.max(value, minIn), maxIn);
+    value = (value - minIn)/(maxIn - minIn) * (maxOut - minOut) + minOut;
+    return value;
+}
+
 function shuffle(a) {
     var j, x, i;
     for (i = a.length - 1; i > 0; i--) {
@@ -100,6 +106,7 @@ exports.create2DArray = create2DArray;
 exports.getRandomInt = getRandomInt;
 exports.getMaxPitch = getMaxPitch;
 exports.getMinPitch = getMinPitch;
+exports.scale = scale;
 exports.shuffle = shuffle;
 exports.shuffle_with_indices = shuffle_with_indices;
 exports.post = post;

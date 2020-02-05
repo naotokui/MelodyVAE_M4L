@@ -213,9 +213,9 @@ function processPianoroll(midiFile, augmentation){
     //     durations.push(...aug_durations);
     // }
 
-    console.assert(onsets.length == velocities.length && velocities.length == durations.length 
-                    && onsets.length == onsets_dr.length,
-         "Something wrong with augmentation? array length must be the same.");
+    // console.assert(onsets.length == velocities.length && velocities.length == durations.length 
+    //                 && onsets.length == onsets_dr.length,
+    //      "Something wrong with augmentation? array length must be the same.");
     // // /*    for debug - output pianoroll */
     // if (durations.length > 0){ 
     //     var index = utils.getRandomInt(durations.length); 
@@ -229,7 +229,7 @@ function processPianoroll(midiFile, augmentation){
     // }
     
     // 2D array to tf.tensor2d
-    for (var i=0; i < onsets.length; i++){
+    for (var i=0; i < onsets.length && i < onsets_dr.length; i++){
         if (getNumOfOnsets(onsets[i]) > MIN_ONSETS_THRESHOLD 
                 && getNumOfDrumOnsets(onsets_dr[i]) > MIN_ONSETS_THRESHOLD){
             train_data_onsets.push(tf.tensor2d(onsets[i], [NUM_MIDI_CLASSES, LOOP_DURATION]));
@@ -313,60 +313,94 @@ Max.addHandler("generate", (z1, z2, thresh_min, thresh_max = 1.0, noise_range = 
 
 async function generatePattern(z1, z2, thresh_min, thresh_max, noise_range){
     if (vae.isReadyToGenerate()){    
-      if (isGenerating) return;
-  
-      isGenerating = true;
-      let [onsets, velocities, durations] = vae.generatePattern(z1, z2, noise_range);
-      Max.outlet("matrix_clear",1); // clear all
+        if (isGenerating) return;
+        isGenerating = true;
 
-      // For Grid
-      for (var i=0; i< NUM_MIDI_CLASSES; i++){
-          var sequence = [];
-          // output for matrix view
-          for (var j=0; j < LOOP_DURATION; j++){
-              var x = 0.0;
-              // if (pattern[i * LOOP_DURATION + j] > 0.2) x = 1;
-              if (onsets[i][j] >= thresh_min && onsets[i][j] <= thresh_max){ 
-                x = 1;
-                Max.outlet("matrix_output", j + 1, i + 1, x); // index for live.grid starts from 1
-              }
-        } 
-      }
+        let [onsets, velocities, durations, 
+                onsets_dr, velocities_dr, timeshifts_dr] = vae.generatePattern(z1, z2, noise_range);
 
+        {
+            Max.outlet("melody", "matrix_clear", 1); // clear all
 
-      // live.step has mono-phonic sequences (up to 16 tracks)
-      for (var k=0; k< 16; k++){ // 16 = number of monophonic sequence in live.step
-        var pitch_sequence = [];
-        var velocity_sequence = [];
-        var duration_sequence = [];
-        for (var j=0; j < LOOP_DURATION; j++){
-
-            var count = 0;
+            // For melody
+            // For Grid
             for (var i=0; i< NUM_MIDI_CLASSES; i++){
-                if (onsets[i][j] >= thresh_min && onsets[i][j] <= thresh_max) count++; // if there is an onset
-                if (count > k) {
-                    pitch_sequence.push(i + MIN_MIDI_NOTE);
-                    velocity_sequence.push(Math.floor(velocities[i][j]*127.));
-                    duration_sequence.push(Math.min(Math.floor(durations[i][j]*64.), 127));
-                    break;
-                }
+                var sequence = [];
+                // output for matrix view
+                for (var j=0; j < LOOP_DURATION; j++){
+                    var x = 0.0;
+                    // if (pattern[i * LOOP_DURATION + j] > 0.2) x = 1;
+                    if (onsets[i][j] >= thresh_min && onsets[i][j] <= thresh_max){ 
+                        x = 1;
+                        Max.outlet("melody", "matrix_output", j + 1, i + 1, x); // index for live.grid starts from 1
+                    }
+                } 
             }
-            if (count <= k){ // padding if there is no note
-                pitch_sequence.push(0);
-                velocity_sequence.push(0);
-                duration_sequence.push(0);
+
+
+            // live.step has mono-phonic sequences (up to 16 tracks)
+            for (var k=0; k< 16; k++){ // 16 = number of monophonic sequence in live.step
+                var pitch_sequence = [];
+                var velocity_sequence = [];
+                var duration_sequence = [];
+                for (var j=0; j < LOOP_DURATION; j++){
+
+                    var count = 0;
+                    for (var i=0; i< NUM_MIDI_CLASSES; i++){
+                        if (onsets[i][j] >= thresh_min && onsets[i][j] <= thresh_max) count++; // if there is an onset
+                        if (count > k) {
+                            pitch_sequence.push(i + MIN_MIDI_NOTE);
+                            velocity_sequence.push(Math.floor(velocities[i][j]*127.));
+                            duration_sequence.push(Math.min(Math.floor(durations[i][j]*64.), 127));
+                            break;
+                        }
+                    }
+                    if (count <= k){ // padding if there is no note
+                        pitch_sequence.push(0);
+                        velocity_sequence.push(0);
+                        duration_sequence.push(0);
+                    }
+                }
+
+            // output for live.step object
+            Max.outlet("melody", "pitch_output", k+1, pitch_sequence.join(" "));
+            Max.outlet("melody", "velocity_output", k+1, velocity_sequence.join(" "));
+            Max.outlet("melody", "duration_output", k+1, duration_sequence.join(" "));
             }
         }
 
-        // output for live.step object
-        Max.outlet("pitch_output", k+1, pitch_sequence.join(" "));
-        Max.outlet("velocity_output", k+1, velocity_sequence.join(" "));
-        Max.outlet("duration_output", k+1, duration_sequence.join(" "));
-    }
 
-      Max.outlet("generated", 1);
-      utils.log_status("");
-      isGenerating = false;
+        // For rhythm
+        {
+            Max.outlet("rhythm", "matrix_clear", 1); // clear all
+            for (var i=0; i< NUM_DRUM_CLASSES; i++){
+                var sequence = []; // for velocity
+                var sequenceTS = []; // for timeshift
+                // output for matrix view
+                for (var j=0; j < LOOP_DURATION; j++){
+                    // if (pattern[i * LOOP_DURATION + j] > 0.2) x = 1;
+                    if (onsets_dr[i][j] > thresh_min){
+                        Max.outlet("rhythm", "matrix_output", j + 1, i + 1, 1); // index for live.grid starts from 1
+                    
+                        // for live.step
+                        sequence.push(Math.floor(velocities_dr[i][j]*127.)); // 0-1 -> 0-127
+                        sequenceTS.push(Math.floor(utils.scale(timeshifts_dr[i][j], -1., 1, 0, 127))); // -1 - 1 -> 0 - 127
+                    } else {
+                        sequence.push(0);
+                        sequenceTS.push(64);
+                    }
+                }
+        
+                // output for live.step object
+                Max.outlet("rhythm", "seq_output", i+1, sequence.join(" "));
+                Max.outlet("rhythm", "timeshift_output", i+1, sequenceTS.join(" "));
+            }
+        }
+
+        // Finished
+        Max.outlet("generated", 1);
+        utils.log_status("");
+        isGenerating = false;
   } else {
       utils.error_status("Model is not trained yet");
   }
