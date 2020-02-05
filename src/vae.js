@@ -22,7 +22,7 @@ const LATENT_DIM = 2;
 const BATCH_SIZE = 128;
 const NUM_BATCH = 50;
 const TEST_BATCH_SIZE = 1000;
-const ON_LOSS_COEF = 0.1;  // coef for onsets loss
+const ON_LOSS_COEF = 0.5;  // coef for onsets loss
 const DUR_LOSS_COEF = 1.0;  // coef for duration loss
 const VEL_LOSS_COEF = 1.0;  // coef for velocity loss
 const TS_LOSS_COEF = 5.0;  // coef for timeshift loss
@@ -370,7 +370,7 @@ class ConditionalVAE {
       let velocity_loss_dr = this.mseLoss(yTrueVelDr, yVelDr);
       velocity_loss_dr = velocity_loss_dr.mul(VEL_LOSS_COEF);
       let timeshift_loss_dr = this.mseLoss(yTrueTsDr, yTsDr);
-      timeshift_loss_dr = timeshift_loss_dr.mul(DUR_LOSS_COEF);
+      timeshift_loss_dr = timeshift_loss_dr.mul(TS_LOSS_COEF);
 
       const kl_loss = this.klLoss(z_mean, z_log_var);
       console.log("onset_loss", tf.mean(onset_loss).dataSync());

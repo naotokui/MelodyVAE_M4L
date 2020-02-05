@@ -311,7 +311,7 @@ Max.addHandler("generate", (z1, z2, thresh_min, thresh_max = 1.0, noise_range = 
     }
 });
 
-async function generatePattern(z1, z2, thresh_min, thresh_max, noise_range){
+async function generatePattern(z1, z2, thresh_min, thresh_max, thresh_dr, noise_range){
     if (vae.isReadyToGenerate()){    
         if (isGenerating) return;
         isGenerating = true;
@@ -366,6 +366,7 @@ async function generatePattern(z1, z2, thresh_min, thresh_max, noise_range){
             Max.outlet("melody", "pitch_output", k+1, pitch_sequence.join(" "));
             Max.outlet("melody", "velocity_output", k+1, velocity_sequence.join(" "));
             Max.outlet("melody", "duration_output", k+1, duration_sequence.join(" "));
+            Max.outlet("melody", "generated", 1);
             }
         }
 
@@ -379,7 +380,7 @@ async function generatePattern(z1, z2, thresh_min, thresh_max, noise_range){
                 // output for matrix view
                 for (var j=0; j < LOOP_DURATION; j++){
                     // if (pattern[i * LOOP_DURATION + j] > 0.2) x = 1;
-                    if (onsets_dr[i][j] > thresh_min){
+                    if (onsets_dr[i][j] > thresh_dr){
                         Max.outlet("rhythm", "matrix_output", j + 1, i + 1, 1); // index for live.grid starts from 1
                     
                         // for live.step
@@ -394,6 +395,7 @@ async function generatePattern(z1, z2, thresh_min, thresh_max, noise_range){
                 // output for live.step object
                 Max.outlet("rhythm", "seq_output", i+1, sequence.join(" "));
                 Max.outlet("rhythm", "timeshift_output", i+1, sequenceTS.join(" "));
+                Max.outlet("rhythm","generated", 1);
             }
         }
 

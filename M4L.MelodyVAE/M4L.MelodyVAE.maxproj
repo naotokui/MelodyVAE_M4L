@@ -2,8 +2,8 @@
 	"name" : "M4L.MelodyVAE",
 	"version" : 1,
 	"creationdate" : 3656588145,
-	"modificationdate" : 3661974485,
-	"viewrect" : [ 27.0, 79.0, 300.0, 500.0 ],
+	"modificationdate" : 3663781059,
+	"viewrect" : [ 449.0, 81.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -15,7 +15,7 @@
 				"local" : 1,
 				"toplevel" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L",
+					"bootpath" : "~/git/MelodyVAE_M4L",
 					"projectrelativepath" : ".."
 				}
 
@@ -36,6 +36,11 @@
 			"count_for_me.maxpat" : 			{
 				"kind" : "patcher"
 			}
+,
+			"makenote_for_me_dr.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -44,7 +49,7 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L",
+					"bootpath" : "~/git/MelodyVAE_M4L",
 					"projectrelativepath" : ".."
 				}
 
@@ -54,7 +59,7 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/src",
+					"bootpath" : "~/git/MelodyVAE_M4L/src",
 					"projectrelativepath" : "../src"
 				}
 
@@ -64,7 +69,7 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/src",
+					"bootpath" : "~/git/MelodyVAE_M4L/src",
 					"projectrelativepath" : "../src"
 				}
 
@@ -74,7 +79,7 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/src",
+					"bootpath" : "~/git/MelodyVAE_M4L/src",
 					"projectrelativepath" : "../src"
 				}
 
@@ -84,7 +89,7 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/src",
+					"bootpath" : "~/git/MelodyVAE_M4L/src",
 					"projectrelativepath" : "../src"
 				}
 
@@ -94,8 +99,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -104,8 +109,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -114,8 +119,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -124,8 +129,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -134,8 +139,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -144,8 +149,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/scripts",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/scripts"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/scripts",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/scripts"
 				}
 
 			}
@@ -154,8 +159,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/scripts",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/scripts"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/scripts",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/scripts"
 				}
 
 			}
@@ -164,8 +169,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/scripts",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/scripts"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/scripts",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/scripts"
 				}
 
 			}
@@ -174,8 +179,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/data",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/data"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/data",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/data"
 				}
 
 			}
@@ -184,8 +189,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/data",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/data"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/data",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/data"
 				}
 
 			}
@@ -194,8 +199,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -204,8 +209,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -214,8 +219,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -224,8 +229,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -234,8 +239,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -244,8 +249,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -254,8 +259,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
 				}
 
 			}
@@ -264,8 +269,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
 				}
 
 			}
@@ -274,8 +279,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -284,8 +289,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -294,8 +299,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -304,8 +309,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -314,8 +319,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -324,8 +329,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -334,8 +339,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -344,8 +349,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -354,8 +359,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -364,8 +369,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -374,8 +379,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -384,8 +389,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -394,8 +399,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -404,8 +409,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -414,8 +419,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -424,8 +429,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -434,8 +439,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -444,8 +449,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -454,8 +459,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -464,8 +469,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -474,8 +479,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -484,8 +489,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -494,8 +499,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -504,8 +509,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -514,8 +519,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -524,8 +529,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -534,8 +539,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -544,8 +549,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -554,8 +559,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -564,8 +569,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -574,8 +579,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -584,8 +589,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -594,8 +599,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -604,8 +609,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -614,8 +619,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -624,8 +629,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist"
 				}
 
 			}
@@ -634,8 +639,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist"
 				}
 
 			}
@@ -644,8 +649,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist"
 				}
 
 			}
@@ -654,8 +659,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/benchmarks",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/benchmarks"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/benchmarks",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/benchmarks"
 				}
 
 			}
@@ -664,8 +669,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/benchmarks",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/benchmarks"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/benchmarks",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/benchmarks"
 				}
 
 			}
@@ -674,8 +679,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -684,8 +689,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -694,8 +699,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -704,8 +709,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/cpu",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/cpu"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/cpu",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/cpu"
 				}
 
 			}
@@ -714,8 +719,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/cpu",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/cpu"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/cpu",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/cpu"
 				}
 
 			}
@@ -724,8 +729,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -734,8 +739,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -744,8 +749,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -754,8 +759,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -764,8 +769,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -774,8 +779,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -784,8 +789,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -794,8 +799,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -804,8 +809,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -814,8 +819,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -824,8 +829,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -834,8 +839,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -844,8 +849,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -854,8 +859,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -864,8 +869,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -874,8 +879,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -884,8 +889,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -894,8 +899,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -904,8 +909,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -914,8 +919,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -924,8 +929,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -934,8 +939,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -944,8 +949,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -954,8 +959,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -964,8 +969,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -974,8 +979,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -984,8 +989,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -994,8 +999,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1004,8 +1009,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1014,8 +1019,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1024,8 +1029,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1034,8 +1039,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1044,8 +1049,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1054,8 +1059,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1064,8 +1069,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1074,8 +1079,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1084,8 +1089,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1094,8 +1099,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1104,8 +1109,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1114,8 +1119,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1124,8 +1129,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1134,8 +1139,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1144,8 +1149,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1154,8 +1159,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1164,8 +1169,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1174,8 +1179,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1184,8 +1189,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1194,8 +1199,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1204,8 +1209,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1214,8 +1219,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1224,8 +1229,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1234,8 +1239,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1244,8 +1249,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1254,8 +1259,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1264,8 +1269,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1274,8 +1279,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1284,8 +1289,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1294,8 +1299,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1304,8 +1309,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1314,8 +1319,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1324,8 +1329,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1334,8 +1339,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1344,8 +1349,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1354,8 +1359,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1364,8 +1369,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1374,8 +1379,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1384,8 +1389,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1394,8 +1399,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1404,8 +1409,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1414,8 +1419,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1424,8 +1429,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1434,8 +1439,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1444,8 +1449,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1454,8 +1459,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1464,8 +1469,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1474,8 +1479,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1484,8 +1489,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1494,8 +1499,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1504,8 +1509,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1514,8 +1519,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1524,8 +1529,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1534,8 +1539,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1544,8 +1549,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1554,8 +1559,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1564,8 +1569,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1574,8 +1579,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1584,8 +1589,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1594,8 +1599,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -1604,8 +1609,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -1614,8 +1619,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1624,8 +1629,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1634,8 +1639,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1644,8 +1649,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1654,8 +1659,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1664,8 +1669,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1674,8 +1679,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1684,8 +1689,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1694,8 +1699,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1704,8 +1709,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1714,8 +1719,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1724,8 +1729,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1734,8 +1739,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1744,8 +1749,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1754,8 +1759,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -1764,8 +1769,8 @@
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/io",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/io"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/io",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/io"
 				}
 
 			}
@@ -1777,8 +1782,8 @@
 				"kind" : "json",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs"
 				}
 
 			}
@@ -1790,7 +1795,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/.bin",
+					"bootpath" : "~/git/MelodyVAE_M4L/node_modules/.bin",
 					"projectrelativepath" : "../node_modules/.bin"
 				}
 
@@ -1800,7 +1805,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/.bin",
+					"bootpath" : "~/git/MelodyVAE_M4L/node_modules/.bin",
 					"projectrelativepath" : "../node_modules/.bin"
 				}
 
@@ -1810,7 +1815,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/.bin",
+					"bootpath" : "~/git/MelodyVAE_M4L/node_modules/.bin",
 					"projectrelativepath" : "../node_modules/.bin"
 				}
 
@@ -1820,7 +1825,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/.bin",
+					"bootpath" : "~/git/MelodyVAE_M4L/node_modules/.bin",
 					"projectrelativepath" : "../node_modules/.bin"
 				}
 
@@ -1830,7 +1835,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/.bin",
+					"bootpath" : "~/git/MelodyVAE_M4L/node_modules/.bin",
 					"projectrelativepath" : "../node_modules/.bin"
 				}
 
@@ -1840,7 +1845,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/.bin",
+					"bootpath" : "~/git/MelodyVAE_M4L/node_modules/.bin",
 					"projectrelativepath" : "../node_modules/.bin"
 				}
 
@@ -1850,7 +1855,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/.bin",
+					"bootpath" : "~/git/MelodyVAE_M4L/node_modules/.bin",
 					"projectrelativepath" : "../node_modules/.bin"
 				}
 
@@ -1860,7 +1865,7 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/.bin",
+					"bootpath" : "~/git/MelodyVAE_M4L/node_modules/.bin",
 					"projectrelativepath" : "../node_modules/.bin"
 				}
 
@@ -1870,8 +1875,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -1880,8 +1885,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -1890,8 +1895,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -1900,8 +1905,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -1910,8 +1915,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -1920,8 +1925,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -1930,8 +1935,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -1940,8 +1945,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/dist"
 				}
 
 			}
@@ -1950,8 +1955,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/src",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/src"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/src",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/src"
 				}
 
 			}
@@ -1960,8 +1965,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs/src",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs/src"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs/src",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs/src"
 				}
 
 			}
@@ -1970,8 +1975,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/scripts",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/scripts"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/scripts",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/scripts"
 				}
 
 			}
@@ -1980,8 +1985,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/scripts",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/scripts"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/scripts",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/scripts"
 				}
 
 			}
@@ -1990,8 +1995,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/scripts",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/scripts"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/scripts",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/scripts"
 				}
 
 			}
@@ -2000,8 +2005,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/scripts",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/scripts"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/scripts",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/scripts"
 				}
 
 			}
@@ -2010,8 +2015,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/scripts",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/scripts"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/scripts",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/scripts"
 				}
 
 			}
@@ -2020,8 +2025,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/scripts",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/scripts"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/scripts",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/scripts"
 				}
 
 			}
@@ -2030,8 +2035,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/data",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/data"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/data",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/data"
 				}
 
 			}
@@ -2040,8 +2045,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/data",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/data"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/data",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/data"
 				}
 
 			}
@@ -2050,8 +2055,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/data",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/data"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/data",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/data"
 				}
 
 			}
@@ -2060,8 +2065,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/data",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/data"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/data",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/data"
 				}
 
 			}
@@ -2070,8 +2075,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/data",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/data"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/data",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/data"
 				}
 
 			}
@@ -2080,8 +2085,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2090,8 +2095,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2100,8 +2105,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2110,8 +2115,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2120,8 +2125,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2130,8 +2135,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2140,8 +2145,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2150,8 +2155,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2160,8 +2165,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2170,8 +2175,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2180,8 +2185,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2190,8 +2195,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2200,8 +2205,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2210,8 +2215,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2220,8 +2225,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2230,8 +2235,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2240,8 +2245,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2250,8 +2255,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/executor"
 				}
 
 			}
@@ -2260,8 +2265,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
 				}
 
 			}
@@ -2270,8 +2275,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
 				}
 
 			}
@@ -2280,8 +2285,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
 				}
 
 			}
@@ -2290,8 +2295,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
 				}
 
 			}
@@ -2300,8 +2305,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
 				}
 
 			}
@@ -2310,8 +2315,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/custom_op"
 				}
 
 			}
@@ -2320,8 +2325,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2330,8 +2335,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2340,8 +2345,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2350,8 +2355,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2360,8 +2365,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2370,8 +2375,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2380,8 +2385,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2390,8 +2395,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2400,8 +2405,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2410,8 +2415,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2420,8 +2425,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2430,8 +2435,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2440,8 +2445,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2450,8 +2455,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2460,8 +2465,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2470,8 +2475,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2480,8 +2485,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2490,8 +2495,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2500,8 +2505,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2510,8 +2515,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2520,8 +2525,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2530,8 +2535,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2540,8 +2545,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2550,8 +2555,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2560,8 +2565,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2570,8 +2575,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2580,8 +2585,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2590,8 +2595,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2600,8 +2605,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2610,8 +2615,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2620,8 +2625,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2630,8 +2635,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2640,8 +2645,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2650,8 +2655,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2660,8 +2665,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2670,8 +2675,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2680,8 +2685,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2690,8 +2695,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2700,8 +2705,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2710,8 +2715,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2720,8 +2725,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2730,8 +2735,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2740,8 +2745,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2750,8 +2755,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2760,8 +2765,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2770,8 +2775,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2780,8 +2785,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2790,8 +2795,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2800,8 +2805,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/executors"
 				}
 
 			}
@@ -2810,8 +2815,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2820,8 +2825,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2830,8 +2835,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2840,8 +2845,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2850,8 +2855,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2860,8 +2865,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2870,8 +2875,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2880,8 +2885,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2890,8 +2895,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2900,8 +2905,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2910,8 +2915,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2920,8 +2925,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2930,8 +2935,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2940,8 +2945,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2950,8 +2955,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2960,8 +2965,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2970,8 +2975,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2980,8 +2985,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -2990,8 +2995,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3000,8 +3005,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3010,8 +3015,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3020,8 +3025,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3030,8 +3035,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3040,8 +3045,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3050,8 +3055,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3060,8 +3065,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3070,8 +3075,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3080,8 +3085,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3090,8 +3095,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3100,8 +3105,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3110,8 +3115,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3120,8 +3125,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3130,8 +3135,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations/op_list"
 				}
 
 			}
@@ -3140,8 +3145,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -3150,8 +3155,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -3160,8 +3165,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -3170,8 +3175,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -3180,8 +3185,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -3190,8 +3195,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -3200,8 +3205,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -3210,8 +3215,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src/operations"
 				}
 
 			}
@@ -3220,8 +3225,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist/src",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist/src"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist/src",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist/src"
 				}
 
 			}
@@ -3230,8 +3235,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist"
 				}
 
 			}
@@ -3240,8 +3245,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist"
 				}
 
 			}
@@ -3250,8 +3255,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/dist"
 				}
 
 			}
@@ -3260,8 +3265,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter"
 				}
 
 			}
@@ -3270,8 +3275,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/data",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/data"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/data",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/data"
 				}
 
 			}
@@ -3280,8 +3285,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/data",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/data"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/data",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/data"
 				}
 
 			}
@@ -3290,8 +3295,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/executor"
 				}
 
 			}
@@ -3300,8 +3305,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/executor"
 				}
 
 			}
@@ -3310,8 +3315,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/executor"
 				}
 
 			}
@@ -3320,8 +3325,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/executor"
 				}
 
 			}
@@ -3330,8 +3335,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/executor"
 				}
 
 			}
@@ -3340,8 +3345,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/executor",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/executor"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/executor",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/executor"
 				}
 
 			}
@@ -3350,8 +3355,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/custom_op"
 				}
 
 			}
@@ -3360,8 +3365,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/custom_op",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/custom_op"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/custom_op",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/custom_op"
 				}
 
 			}
@@ -3370,8 +3375,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3380,8 +3385,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3390,8 +3395,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3400,8 +3405,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3410,8 +3415,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3420,8 +3425,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3430,8 +3435,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3440,8 +3445,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3450,8 +3455,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3460,8 +3465,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3470,8 +3475,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3480,8 +3485,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3490,8 +3495,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3500,8 +3505,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3510,8 +3515,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3520,8 +3525,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3530,8 +3535,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/executors",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/executors"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/executors",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/executors"
 				}
 
 			}
@@ -3540,8 +3545,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3550,8 +3555,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3560,8 +3565,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3570,8 +3575,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3580,8 +3585,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3590,8 +3595,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3600,8 +3605,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3610,8 +3615,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3620,8 +3625,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3630,8 +3635,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3640,8 +3645,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3650,8 +3655,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3660,8 +3665,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3670,8 +3675,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3680,8 +3685,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3690,8 +3695,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations/op_list",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations/op_list"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations/op_list",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations/op_list"
 				}
 
 			}
@@ -3700,8 +3705,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations"
 				}
 
 			}
@@ -3710,8 +3715,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations"
 				}
 
 			}
@@ -3720,8 +3725,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/src/operations",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/src/operations"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/src/operations",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/src/operations"
 				}
 
 			}
@@ -3730,8 +3735,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-converter/tools",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-converter/tools"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-converter/tools",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-converter/tools"
 				}
 
 			}
@@ -3740,8 +3745,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core"
 				}
 
 			}
@@ -3750,8 +3755,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core"
 				}
 
 			}
@@ -3760,8 +3765,8 @@
 				"kind" : "webpage",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/benchmarks",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/benchmarks"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/benchmarks",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/benchmarks"
 				}
 
 			}
@@ -3770,8 +3775,8 @@
 				"kind" : "stylesheet",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/benchmarks",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/benchmarks"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/benchmarks",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/benchmarks"
 				}
 
 			}
@@ -3780,8 +3785,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core"
 				}
 
 			}
@@ -3790,8 +3795,8 @@
 				"kind" : "yaml",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core"
 				}
 
 			}
@@ -3800,8 +3805,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core"
 				}
 
 			}
@@ -3810,8 +3815,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3820,8 +3825,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3830,8 +3835,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3840,8 +3845,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3850,8 +3855,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3860,8 +3865,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3870,8 +3875,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3880,8 +3885,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3890,8 +3895,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3900,8 +3905,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3910,8 +3915,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/cpu",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/cpu"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/cpu",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/cpu"
 				}
 
 			}
@@ -3920,8 +3925,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/cpu",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/cpu"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/cpu",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/cpu"
 				}
 
 			}
@@ -3930,8 +3935,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/cpu",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/cpu"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/cpu",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/cpu"
 				}
 
 			}
@@ -3940,8 +3945,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/cpu",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/cpu"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/cpu",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/cpu"
 				}
 
 			}
@@ -3950,8 +3955,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/cpu",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/cpu"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/cpu",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/cpu"
 				}
 
 			}
@@ -3960,8 +3965,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/cpu",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/cpu"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/cpu",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/cpu"
 				}
 
 			}
@@ -3970,8 +3975,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3980,8 +3985,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -3990,8 +3995,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -4000,8 +4005,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -4010,8 +4015,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -4020,8 +4025,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -4030,8 +4035,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -4040,8 +4045,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -4050,8 +4055,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -4060,8 +4065,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -4070,8 +4075,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4080,8 +4085,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4090,8 +4095,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4100,8 +4105,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4110,8 +4115,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4120,8 +4125,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4130,8 +4135,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4140,8 +4145,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4150,8 +4155,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4160,8 +4165,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4170,8 +4175,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4180,8 +4185,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4190,8 +4195,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4200,8 +4205,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4210,8 +4215,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4220,8 +4225,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4230,8 +4235,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4240,8 +4245,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4250,8 +4255,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4260,8 +4265,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4270,8 +4275,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4280,8 +4285,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4290,8 +4295,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4300,8 +4305,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4310,8 +4315,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4320,8 +4325,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4330,8 +4335,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4340,8 +4345,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4350,8 +4355,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4360,8 +4365,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4370,8 +4375,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4380,8 +4385,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4390,8 +4395,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4400,8 +4405,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4410,8 +4415,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4420,8 +4425,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4430,8 +4435,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4440,8 +4445,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4450,8 +4455,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4460,8 +4465,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4470,8 +4475,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4480,8 +4485,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4490,8 +4495,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4500,8 +4505,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4510,8 +4515,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4520,8 +4525,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4530,8 +4535,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4540,8 +4545,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4550,8 +4555,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4560,8 +4565,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4570,8 +4575,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4580,8 +4585,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4590,8 +4595,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4600,8 +4605,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4610,8 +4615,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4620,8 +4625,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4630,8 +4635,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4640,8 +4645,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4650,8 +4655,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4660,8 +4665,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4670,8 +4675,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4680,8 +4685,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4690,8 +4695,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4700,8 +4705,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4710,8 +4715,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4720,8 +4725,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4730,8 +4735,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4740,8 +4745,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4750,8 +4755,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4760,8 +4765,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4770,8 +4775,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4780,8 +4785,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4790,8 +4795,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4800,8 +4805,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4810,8 +4815,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4820,8 +4825,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4830,8 +4835,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4840,8 +4845,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4850,8 +4855,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4860,8 +4865,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4870,8 +4875,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4880,8 +4885,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4890,8 +4895,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4900,8 +4905,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4910,8 +4915,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4920,8 +4925,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4930,8 +4935,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4940,8 +4945,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4950,8 +4955,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4960,8 +4965,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4970,8 +4975,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4980,8 +4985,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -4990,8 +4995,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5000,8 +5005,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5010,8 +5015,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5020,8 +5025,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5030,8 +5035,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5040,8 +5045,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5050,8 +5055,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5060,8 +5065,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5070,8 +5075,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5080,8 +5085,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5090,8 +5095,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5100,8 +5105,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5110,8 +5115,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5120,8 +5125,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5130,8 +5135,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5140,8 +5145,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5150,8 +5155,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5160,8 +5165,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5170,8 +5175,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5180,8 +5185,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5190,8 +5195,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5200,8 +5205,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5210,8 +5215,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5220,8 +5225,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5230,8 +5235,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5240,8 +5245,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5250,8 +5255,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5260,8 +5265,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5270,8 +5275,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5280,8 +5285,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5290,8 +5295,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5300,8 +5305,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5310,8 +5315,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5320,8 +5325,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5330,8 +5335,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5340,8 +5345,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5350,8 +5355,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5360,8 +5365,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5370,8 +5375,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5380,8 +5385,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5390,8 +5395,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5400,8 +5405,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5410,8 +5415,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5420,8 +5425,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5430,8 +5435,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5440,8 +5445,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5450,8 +5455,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5460,8 +5465,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5470,8 +5475,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5480,8 +5485,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5490,8 +5495,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5500,8 +5505,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5510,8 +5515,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5520,8 +5525,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5530,8 +5535,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5540,8 +5545,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5550,8 +5555,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5560,8 +5565,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5570,8 +5575,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5580,8 +5585,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5590,8 +5595,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5600,8 +5605,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5610,8 +5615,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5620,8 +5625,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5630,8 +5635,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5640,8 +5645,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5650,8 +5655,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5660,8 +5665,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5670,8 +5675,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5680,8 +5685,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5690,8 +5695,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5700,8 +5705,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5710,8 +5715,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5720,8 +5725,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5730,8 +5735,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5740,8 +5745,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5750,8 +5755,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5760,8 +5765,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5770,8 +5775,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5780,8 +5785,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5790,8 +5795,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5800,8 +5805,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5810,8 +5815,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5820,8 +5825,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5830,8 +5835,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5840,8 +5845,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5850,8 +5855,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5860,8 +5865,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5870,8 +5875,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5880,8 +5885,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5890,8 +5895,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5900,8 +5905,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5910,8 +5915,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5920,8 +5925,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5930,8 +5935,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5940,8 +5945,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5950,8 +5955,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5960,8 +5965,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends/webgl",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends/webgl"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends/webgl",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends/webgl"
 				}
 
 			}
@@ -5970,8 +5975,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -5980,8 +5985,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/backends",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/backends"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/backends",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/backends"
 				}
 
 			}
@@ -5990,8 +5995,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6000,8 +6005,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6010,8 +6015,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6020,8 +6025,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6030,8 +6035,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6040,8 +6045,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6050,8 +6055,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6060,8 +6065,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6070,8 +6075,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6080,8 +6085,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6090,8 +6095,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6100,8 +6105,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6110,8 +6115,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6120,8 +6125,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6130,8 +6135,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6140,8 +6145,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6150,8 +6155,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6160,8 +6165,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6170,8 +6175,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6180,8 +6185,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6190,8 +6195,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6200,8 +6205,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6210,8 +6215,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6220,8 +6225,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6230,8 +6235,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6240,8 +6245,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6250,8 +6255,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6260,8 +6265,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6270,8 +6275,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6280,8 +6285,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist"
 				}
 
 			}
@@ -6290,8 +6295,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/io",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/io"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/io",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/io"
 				}
 
 			}
@@ -6300,8 +6305,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules/@tensorflow/tfjs-core/dist/io",
-					"projectrelativepath" : "../node_modules/@tensorflow/tfjs-core/dist/io"
+					"bootpath" : "~/.Trash/@tensorflow/tfjs-core/dist/io",
+					"projectrelativepath" : "../../../.Trash/@tensorflow/tfjs-core/dist/io"
 				}
 
 			}
@@ -6316,7 +6321,7 @@
 ,
 	"searchpath" : 	{
 		"0" : 		{
-			"bootpath" : "~/Project/public_git/RhythmVAE_M4L/src",
+			"bootpath" : "~/git/MelodyVAE_M4L/src",
 			"projectrelativepath" : "../src",
 			"label" : "",
 			"recursive" : 1,
@@ -6325,7 +6330,7 @@
 		}
 ,
 		"1" : 		{
-			"bootpath" : "~/Project/public_git/RhythmVAE_M4L/subpatches",
+			"bootpath" : "~/git/MelodyVAE_M4L/subpatches",
 			"projectrelativepath" : "../subpatches",
 			"label" : "",
 			"recursive" : 1,
@@ -6334,7 +6339,7 @@
 		}
 ,
 		"2" : 		{
-			"bootpath" : "~/Project/public_git/RhythmVAE_M4L/node_modules",
+			"bootpath" : "~/git/MelodyVAE_M4L/node_modules",
 			"projectrelativepath" : "../node_modules",
 			"label" : "",
 			"recursive" : 1,
