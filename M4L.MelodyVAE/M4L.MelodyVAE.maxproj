@@ -2,8 +2,8 @@
 	"name" : "M4L.MelodyVAE",
 	"version" : 1,
 	"creationdate" : 3656588145,
-	"modificationdate" : 3672774945,
-	"viewrect" : [ 27.0, 79.0, 300.0, 500.0 ],
+	"modificationdate" : 3695619587,
+	"viewrect" : [ 26.0, 79.0, 577.0, 1247.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -6316,8 +6316,8 @@
 ,
 	"searchpath" : 	{
 		"0" : 		{
-			"bootpath" : "~/git/MelodyVAE_M4L/src",
-			"projectrelativepath" : "../src",
+			"bootpath" : "~/git/MelodyVAE_M4L/node_modules",
+			"projectrelativepath" : "../node_modules",
 			"label" : "",
 			"recursive" : 1,
 			"enabled" : 1,
@@ -6334,8 +6334,8 @@
 		}
 ,
 		"2" : 		{
-			"bootpath" : "~/git/MelodyVAE_M4L/node_modules",
-			"projectrelativepath" : "../node_modules",
+			"bootpath" : "~/git/MelodyVAE_M4L/src",
+			"projectrelativepath" : "../src",
 			"label" : "",
 			"recursive" : 1,
 			"enabled" : 1,

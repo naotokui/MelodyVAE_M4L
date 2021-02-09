@@ -383,7 +383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 625.0, 394.0, 207.0, 22.0 ],
-					"text" : "generate 1.54 -1.33 0.2 1. 0."
+					"text" : "generate -2. -2. 0.1 1. 0."
 				}
 
 			}
@@ -742,7 +742,7 @@
 					"id" : "obj-43",
 					"loopruler" : 0,
 					"maxclass" : "live.step",
-					"nseq" : 16,
+					"nseq" : 9,
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
@@ -939,7 +939,7 @@
 					"patching_rect" : [ 82.0, 185.0, 154.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 110.0, 146.064323425292969, 46.0, 21.0 ],
-					"text" : "v0.63β",
+					"text" : "v0.64β",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -5848,6 +5848,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -6727,8 +6729,8 @@
 			}
 , 			{
 				"name" : "setup_1_16.maxpat",
-				"bootpath" : "~/git/MelodyVAE_M4L/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "~/git/RhythmVAE_M4L/subpatches",
+				"patcherrelativepath" : "../RhythmVAE_M4L/subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6741,8 +6743,8 @@
 			}
 , 			{
 				"name" : "count_for_me.maxpat",
-				"bootpath" : "~/git/MelodyVAE_M4L/subpatches",
-				"patcherrelativepath" : "./subpatches",
+				"bootpath" : "~/git/RhythmVAE_M4L/subpatches",
+				"patcherrelativepath" : "../RhythmVAE_M4L/subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
