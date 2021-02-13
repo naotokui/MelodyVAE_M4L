@@ -47,7 +47,7 @@ function getNoteIndexAndTimeshift(note, tempo){
     const half_unit = unit * 0.5;
 
     const index = Math.max(0, Math.floor((note.time + half_unit) / unit)) // centering 
-    const timeshift = note.time - unit * index;
+    const timeshift = (note.time - unit * index)/half_unit; // normalized
 
     // duration
     const durationUnit = (60.0 / tempo) * 2.0; // the duration of half note
