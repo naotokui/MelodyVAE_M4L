@@ -40,6 +40,65 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"appearance" : 1,
+					"id" : "obj-103",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1417.5, 727.0, 25.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1039.5, 86.046761645017739, 48.0, 36.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "transpose",
+							"parameter_mmax" : 24.0,
+							"parameter_mmin" : -24.0,
+							"parameter_shortname" : "transpose",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "transpose"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"appearance" : 1,
+					"id" : "obj-97",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1464.0, 727.0, 25.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1039.5, 125.0, 44.0, 36.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_exponent" : 2.0,
+							"parameter_longname" : "duration_ratio",
+							"parameter_mmax" : 12.0,
+							"parameter_mmin" : 0.1,
+							"parameter_shortname" : "duration",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "duration_ratio"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-172",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -383,7 +442,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 625.0, 394.0, 207.0, 22.0 ],
-					"text" : "generate -2. -2. 0.1 1. 0."
+					"text" : "generate -1.36 -0.36 0.14 1. 0.32"
 				}
 
 			}
@@ -406,7 +465,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_longname" : "ranoise range",
-							"parameter_mmax" : 20.0,
+							"parameter_mmax" : 50.0,
 							"parameter_shortname" : "noise",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -742,7 +801,7 @@
 					"id" : "obj-43",
 					"loopruler" : 0,
 					"maxclass" : "live.step",
-					"nseq" : 9,
+					"nseq" : 16,
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
@@ -2663,7 +2722,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 680.0, 59.5, 121.0, 22.0 ],
-					"text" : "scale 0 127 -200 200"
+					"text" : "scale 0 127 -300 300"
 				}
 
 			}
@@ -2675,7 +2734,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 554.0, 59.5, 121.0, 22.0 ],
-					"text" : "scale 0 127 -200 200"
+					"text" : "scale 0 127 -300 300"
 				}
 
 			}
@@ -4911,7 +4970,7 @@
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 5,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 1146.0, 741.0, 252.0, 22.0 ],
@@ -5848,8 +5907,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -5956,6 +6013,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 3 ],
+					"source" : [ "obj-103", 0 ]
 				}
 
 			}
@@ -6678,9 +6742,17 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 4 ],
+					"source" : [ "obj-97", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-100" : [ "live.text[7]", "live.text[7]", 0 ],
+			"obj-103" : [ "transpose", "transpose", 0 ],
 			"obj-106" : [ "live.tab", "live.tab", 0 ],
 			"obj-109" : [ "live.text[6]", "live.text[6]", 0 ],
 			"obj-110" : [ "ranoise range", "noise", 0 ],
@@ -6706,6 +6778,7 @@
 			"obj-9" : [ "live.text[4]", "live.text", 0 ],
 			"obj-90" : [ "live.text[5]", "live.text[5]", 0 ],
 			"obj-96" : [ "live.button", "live.button", 0 ],
+			"obj-97" : [ "duration_ratio", "duration", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -6729,8 +6802,8 @@
 			}
 , 			{
 				"name" : "setup_1_16.maxpat",
-				"bootpath" : "~/git/RhythmVAE_M4L/subpatches",
-				"patcherrelativepath" : "../RhythmVAE_M4L/subpatches",
+				"bootpath" : "~/git/MelodyVAE_M4L/subpatches",
+				"patcherrelativepath" : "./subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6743,8 +6816,8 @@
 			}
 , 			{
 				"name" : "count_for_me.maxpat",
-				"bootpath" : "~/git/RhythmVAE_M4L/subpatches",
-				"patcherrelativepath" : "../RhythmVAE_M4L/subpatches",
+				"bootpath" : "~/git/MelodyVAE_M4L/subpatches",
+				"patcherrelativepath" : "./subpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
