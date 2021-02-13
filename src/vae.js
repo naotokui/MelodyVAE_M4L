@@ -19,24 +19,21 @@ const BATCH_SIZE = 128;
 const NUM_BATCH = 50;
 const TEST_BATCH_SIZE = 1000;
 const ON_LOSS_COEF = 0.75;  // coef for onsets loss
-const DUR_LOSS_COEF = 1.0;  // coef for duration loss
 const VEL_LOSS_COEF = 2.5;  // coef for velocity loss
 
 let dataHandlerOnset;
 let dataHandlerVelocity;
-let dataHandlerDuration;
 let model;
 let numEpochs = 100;
 
-async function loadAndTrain(train_data_onset, train_data_velocity, train_data_duration) {
-  console.assert(train_data_onset.length == train_data_velocity.length && train_data_velocity.length == train_data_duration.length);
+async function loadAndTrain(train_data_onset, train_data_velocity) {
+  console.assert(train_data_onset.length == train_data_velocity.length);
   
   // shuffle in sync
   const total_num = train_data_onset.length;
   shuffled_indices = tf.util.createShuffledIndices(total_num);
   train_data_onset = utils.shuffle_with_indices(train_data_onset,shuffled_indices);
   train_data_velocity = utils.shuffle_with_indices(train_data_velocity,shuffled_indices);
-  train_data_duration = utils.shuffle_with_indices(train_data_duration,shuffled_indices);
 
   // synced indices
   const num_trains = Math.floor(data.TRAIN_TEST_RATIO * total_num);
@@ -47,10 +44,9 @@ async function loadAndTrain(train_data_onset, train_data_velocity, train_data_du
   // create data handlers
   dataHandlerOnset = new data.DataHandler(train_data_onset, train_indices, test_indices); // data utility fo onset
   dataHandlerVelocity = new data.DataHandler(train_data_velocity, train_indices, test_indices); // data utility for velocity
-  dataHandlerDuration = new data.DataHandler(train_data_duration, train_indices, test_indices); // data utility for duration
 
   // start training!
-  initModel(); // initializing model class
+  if (!model) initModel(); // initializing model class
   startTraining(); // start the actual training process with the given training data
 }
 
@@ -184,15 +180,9 @@ class ConditionalVAE {
     const x1NormalisedVel = tf.layers.batchNormalization({axis: 1}).apply(x1LinearVel);
     const x1Vel = tf.layers.leakyReLU().apply(x1NormalisedVel);
     
-    // Duration input
-    const encoderInputsDur = tf.input({shape: [originalDim]});
-    const x1LinearDur = tf.layers.dense({units: intermediateDim, useBias: true, kernelInitializer: 'glorotNormal'}).apply(encoderInputsDur);
-    const x1NormalisedDur = tf.layers.batchNormalization({axis: 1}).apply(x1LinearDur);
-    const x1Dur = tf.layers.leakyReLU().apply(x1NormalisedDur);
-
     // Merged
     const concatLayer = tf.layers.concatenate();
-    const x1Merged = concatLayer.apply([x1On, x1Vel, x1Dur]);
+    const x1Merged = concatLayer.apply([x1On, x1Vel]);
     const x2Linear = tf.layers.dense({units: intermediateDim, useBias: true, kernelInitializer: 'glorotNormal'}).apply(x1Merged);
     const x2Normalised = tf.layers.batchNormalization({axis: 1}).apply(x2Linear);
     const x2 = tf.layers.leakyReLU().apply(x2Normalised);
@@ -200,7 +190,7 @@ class ConditionalVAE {
     const zMean = tf.layers.dense({units: latentDim, useBias: true, kernelInitializer: 'glorotNormal'}).apply(x2);
     const zLogVar = tf.layers.dense({units: latentDim, useBias: true, kernelInitializer: 'glorotNormal'}).apply(x2);
     const z = new sampleLayer().apply([zMean, zLogVar]);
-    const encoderInputs = [encoderInputsOn, encoderInputsVel, encoderInputsDur];
+    const encoderInputs = [encoderInputsOn, encoderInputsVel];
     const encoderOutputs = [zMean, zLogVar, z];
 
     const encoder = tf.model({inputs: encoderInputs, outputs: encoderOutputs, name: "encoder"})
@@ -222,13 +212,7 @@ class ConditionalVAE {
     const x4NormalisedVel = tf.layers.batchNormalization({axis: 1}).apply(x4LinearVel);
     const x4Vel = tf.layers.leakyReLU().apply(x4NormalisedVel);
     const decoderOutputsVel = tf.layers.dense({units: originalDim, activation: 'sigmoid'}).apply(x4Vel);
-    
-    // Decoder for duration
-    const x4LinearDur = tf.layers.dense({units: intermediateDim, useBias: true, kernelInitializer: 'glorotNormal'}).apply(x3);
-    const x4NormalisedDur = tf.layers.batchNormalization({axis: 1}).apply(x4LinearDur);
-    const x4Dur = tf.layers.leakyReLU().apply(x4NormalisedDur);
-    const decoderOutputsDur = tf.layers.dense({units: originalDim, activation: 'relu'}).apply(x4Dur);
-    const decoderOutputs = [decoderOutputsOn, decoderOutputsVel, decoderOutputsDur];
+    const decoderOutputs = [decoderOutputsOn, decoderOutputsVel];
 
     // Decoder model
     const decoder = tf.model({inputs: decoderInputs, outputs: decoderOutputs, name: "decoder"})
@@ -276,23 +260,21 @@ class ConditionalVAE {
 
   vaeLoss(yTrue, yPred) {
     return tf.tidy(() => {
-      const [yTrueOn, yTrueVel, yTrueDur] = yTrue;
+      const [yTrueOn, yTrueVel] = yTrue;
       const [z_mean, z_log_var, y] = yPred;
-      const [yOn, yVel, yDur] = y;
+      const [yOn, yVel] = y;
 
       let onset_loss = this.reconstructionLoss(yTrueOn, yOn);
       onset_loss = onset_loss.mul(ON_LOSS_COEF);
       let velocity_loss = this.mseLoss(yTrueVel, yVel);
       velocity_loss = velocity_loss.mul(VEL_LOSS_COEF);
-      let duration_loss = this.mseLoss(yTrueDur, yDur);
-      duration_loss = duration_loss.mul(DUR_LOSS_COEF);
 
       const kl_loss = this.klLoss(z_mean, z_log_var);
       // console.log("onset_loss", tf.mean(onset_loss).dataSync());
       // console.log("velocity_loss", tf.mean(velocity_loss).dataSync());
       // console.log("duration_loss",  tf.mean(duration_loss).dataSync());
       // console.log("kl_loss",  tf.mean(kl_loss).dataSync());
-      const total_loss = tf.mean(onset_loss.add(velocity_loss).add(duration_loss).add(kl_loss)); // averaged in the batch
+      const total_loss = tf.mean(onset_loss.add(velocity_loss).add(kl_loss)); // averaged in the batch
       return total_loss;
     });
   }
@@ -322,7 +304,7 @@ class ConditionalVAE {
     for (let i = 0; i < epochs; i++) {
       if (this.shouldStopTraining) break;
 
-      let batchInputOn, batchInputVel, batchInputDur;
+      let batchInputOn, batchInputVel;
       let trainLoss;
       let epochLoss;
 
@@ -334,9 +316,8 @@ class ConditionalVAE {
       for (let j = 0; j < numBatch; j++) {
         batchInputOn = dataHandlerOnset.nextTrainBatch(batchSize).xs.reshape([batchSize, originalDim]);
         batchInputVel = dataHandlerVelocity.nextTrainBatch(batchSize).xs.reshape([batchSize, originalDim]);
-        batchInputDur = dataHandlerDuration.nextTrainBatch(batchSize).xs.reshape([batchSize, originalDim]);
-        trainLoss = await optimizer.minimize(() => this.vaeLoss([batchInputOn, batchInputVel, batchInputDur], 
-            this.apply([batchInputOn, batchInputVel, batchInputDur])), true);
+        trainLoss = await optimizer.minimize(() => this.vaeLoss([batchInputOn, batchInputVel], 
+            this.apply([batchInputOn, batchInputVel])), true);
         trainLoss = Number(trainLoss.dataSync());
         epochLoss = epochLoss + trainLoss;
         // logMessage(`\t[Batch ${j + 1}] Training Loss: ${trainLoss}.\n`);
@@ -363,13 +344,12 @@ class ConditionalVAE {
   }
   
   generate(zs){
-    let [outputsOn, outputsVel, outputsDur] = this.decoder.apply(zs);
+    let [outputsOn, outputsVel] = this.decoder.apply(zs);
 
     outputsOn = outputsOn.reshape([NUM_MIDI_CLASSES, LOOP_DURATION]);     
-    outputsVel = outputsVel.reshape([NUM_MIDI_CLASSES, LOOP_DURATION]);    
-    outputsDur = outputsDur.reshape([NUM_MIDI_CLASSES, LOOP_DURATION]);    
+    outputsVel = outputsVel.reshape([NUM_MIDI_CLASSES, LOOP_DURATION]);     
 
-    return [outputsOn.arraySync(), outputsVel.arraySync(), outputsDur.arraySync()];
+    return [outputsOn.arraySync(), outputsVel.arraySync()];
   }
 
   async saveModel(path){
