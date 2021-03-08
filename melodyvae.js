@@ -11,6 +11,7 @@ const MAX_MIDI_NOTE = require('./src/constants.js').MAX_MIDI_NOTE;
 const NUM_MIDI_CLASSES = require('./src/constants.js').NUM_MIDI_CLASSES;
 const LOOP_DURATION = require('./src/constants.js').LOOP_DURATION;
 const MIN_ONSETS_THRESHOLD = require('./src/constants.js').MIN_ONSETS_THRESHOLD;
+const INSTRUMENTS_MELODY = require('./src/constants.js').INSTRUMENTS_MELODY;
 
 // VAE model and Utilities
 const utils = require('./src/utils.js');
@@ -62,7 +63,7 @@ function getNumOfOnsets(onsets){
 }
 
 // Convert midi into pianoroll matrix
-function processPianoroll(midiFile, augmentation){
+function processPianoroll(midiFile, augmentation, melody_only=false){
     const tempo = getTempo(midiFile);
 
     // data array
@@ -70,39 +71,43 @@ function processPianoroll(midiFile, augmentation){
     var velocities = [];
 
     midiFile.tracks.forEach(track => {
-        
         if (track.channel != 9 && track.channel != 10){ // ignore drum tracks
-            //notes are an array
-            const notes = track.notes
-            notes.forEach(note => {
-                // round pitch value in 0 - 24
-                let pitch = note.midi % 24;  // TODO: 
-                if (pitch < NUM_MIDI_CLASSES){
-                    let timing = getNoteIndexAndTimeshift(note, tempo);
-                    let index = timing[0];
-                    let end_index = timing[1];  // index of note off
+            // ignore if the track is not one of the melody instruments
+            let inst = track.instrument.number;
+            console.log(inst);
+            if (!melody_only || INSTRUMENTS_MELODY.includes(inst)){
+                //notes are an array
+                const notes = track.notes
+                notes.forEach(note => {
+                    // round pitch value in 0 - 24
+                    let pitch = note.midi % 24;  // TODO: 
+                    if (pitch < NUM_MIDI_CLASSES){
+                        let timing = getNoteIndexAndTimeshift(note, tempo);
+                        let index = timing[0];
+                        let end_index = timing[1];  // index of note off
 
-                    // add new array
-                    while (Math.floor(end_index / LOOP_DURATION) >= onsets.length){
-                        onsets.push(utils.create2DArray(NUM_MIDI_CLASSES, LOOP_DURATION));
-                        velocities.push(utils.create2DArray(NUM_MIDI_CLASSES, LOOP_DURATION));
+                        // add new array
+                        while (Math.floor(end_index / LOOP_DURATION) >= onsets.length){
+                            onsets.push(utils.create2DArray(NUM_MIDI_CLASSES, LOOP_DURATION));
+                            velocities.push(utils.create2DArray(NUM_MIDI_CLASSES, LOOP_DURATION));
+                        }
+
+                        let note_id = pitch;
+
+                        // store onset
+                        for (let k = index; k <= end_index; k++){
+                            let matrix = onsets[Math.floor(k / LOOP_DURATION)];
+                            matrix[note_id][k % LOOP_DURATION] = 1;  // 1 for onsets   
+
+                            // store velocity
+                            matrix = velocities[Math.floor(k / LOOP_DURATION)];
+                            matrix[note_id][k % LOOP_DURATION] = note.velocity;    // normalized 0 - 1
+                        }  
+                    } else {
+                        console.log("out of scope ", note.midi);
                     }
-
-                    let note_id = pitch;
-
-                    // store onset
-                    for (let k = index; k <= end_index; k++){
-                        let matrix = onsets[Math.floor(k / LOOP_DURATION)];
-                        matrix[note_id][k % LOOP_DURATION] = 1;  // 1 for onsets   
-
-                        // store velocity
-                        matrix = velocities[Math.floor(k / LOOP_DURATION)];
-                        matrix[note_id][k % LOOP_DURATION] = note.velocity;    // normalized 0 - 1
-                    }  
-                } else {
-                    console.log("out of scope ", note.midi);
-                }
-            });
+                });
+            }
         }
     })
 
@@ -163,7 +168,7 @@ function processPianoroll(midiFile, augmentation){
     }
 }
 
-function processMidiFile(filename, augmentation){
+function processMidiFile(filename, augmentation, melody_only){
     // // Read MIDI file into a buffer
     var input = fs.readFileSync(filename)
 
@@ -176,13 +181,13 @@ function processMidiFile(filename, augmentation){
     var tempo = getTempo(midiFile);
     // console.log("tempo:", tempo);
     // console.log("signature:", midiFile.header.timeSignatures);
-    processPianoroll(midiFile, augmentation);
+    processPianoroll(midiFile, augmentation, melody_only);
     console.log("processed:", filename);
     return true;
 }
 
 // Add training data
-Max.addHandler("midi", (filename, augmentation) =>  {
+Max.addHandler("midi", (filename, augmentation, melody_only = false) =>  {
     var count = 0;
     // is directory? 
     if (fs.existsSync(filename) && fs.lstatSync(filename).isDirectory()){
@@ -193,7 +198,7 @@ Max.addHandler("midi", (filename, augmentation) =>  {
             else {
                 for (var idx in files){               
                     try {
-                        if (processMidiFile(files[idx], augmentation)) count += 1;
+                        if (processMidiFile(files[idx], augmentation, melody_only)) count += 1;
                     } catch(error) {
                         utils.error("failed to process " + files[idx] + " - " + error);
                     }
@@ -203,7 +208,7 @@ Max.addHandler("midi", (filename, augmentation) =>  {
             }
         })
     } else {
-        if (processMidiFile(filename,augmentation)) count += 1;
+        if (processMidiFile(filename, augmentation, melody_only)) count += 1;
         Max.post("# of midi files added: " + count);    
         reportNumberOfBars();
     }
@@ -265,7 +270,7 @@ async function generatePattern(z1, z2, thresh_min, thresh_max, noise_range){
                 
                 // find the end of the note
                 let duration_count = 0;
-                for (var k=0; k < LOOP_DURATION - j; k++){
+                for (var k=0; j + k < LOOP_DURATION; k++){
                     if (onsets[i][j+k] >= thresh_min && onsets[i][j+k] <= thresh_max){ 
                         duration_count += 1;
                     } else break;
@@ -274,7 +279,6 @@ async function generatePattern(z1, z2, thresh_min, thresh_max, noise_range){
             }
         } 
       }
-
 
       // live.step has mono-phonic sequences (up to 16 tracks)
       for (var k=0; k< 16; k++){ // 16 = number of monophonic sequence in live.step
